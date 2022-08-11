@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "endpoint": "/loan",
+      "destination": {
+        "uri": "http://localhost:17114/api/loan/",
+        "requiresAuthentication": "true"
+      }
+    },
+    {
+      "endpoint": "/token",
+      "destination": {
+        "uri": "http://localhost:20502/api/login/login/",
+        "requiresAuthentication": "false"
+      }
+    }
+  ]
+}
